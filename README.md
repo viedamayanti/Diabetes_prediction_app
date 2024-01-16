@@ -1,6 +1,7 @@
 Diabetes Prediction App
 
 Project Overview:
+
 I've put together a Diabetes Prediction app using Machine Learning, Flask for deployment, and Docker for containerization. The app is hosted on Heroku. This repository takes you through the journey of building a machine learning model for predicting diabetes, covering data preprocessing, exploratory data analysis (EDA), visualization, model training, and deployment.
 
 Key Steps:
