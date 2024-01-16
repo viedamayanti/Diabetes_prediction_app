@@ -4,8 +4,8 @@ import pickle
 
 
 app = Flask(__name__)
-model = pickle.load(open('model.pkl','rb'))
-scaler = pickle.load(open('scaler.pkl', 'rb'))
+model = pickle.load(open('diabetes.pkl','rb'))
+# scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 @app.route('/')
 def home():
@@ -23,12 +23,12 @@ def predict():
     age = float(request.form['age'])
     input_features = np.array([pregnancies,glucose,blood_pressure,skin_thickness,insulin,bmi,diabetesPedigree,age])
     input_reshaped = input_features.reshape(1, -1)
-    input_scaled = scaler.transform(input_reshaped)
-    prediction = model.predict(input_scaled)
+    # input_scaled = scaler.transform(input_reshaped)
+    prediction = model.predict(input_reshaped)
 
     print("Input Features:",input_features)
     print("Input Reshaped:", input_reshaped)
-    print("Scaled Input:", input_scaled)
+    # print("Scaled Input:", input_scaled)
     print("Prediction:", prediction)
 
 
