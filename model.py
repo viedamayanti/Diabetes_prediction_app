@@ -57,4 +57,4 @@ else:
 
 print(result)
 
-pickle.dump(svc_linear, open('diabetes.pkl', 'wb'))
+pickle.dump(svc_linear, open('diabetes_model.pkl', 'wb'))
