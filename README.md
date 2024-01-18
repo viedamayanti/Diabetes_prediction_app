@@ -2,7 +2,7 @@ Diabetes Prediction App
 
 Project Overview:
 
-During my internship at Data Glacier in weeks 4 and 5, I took on the role of a Data Analyst/Data Scientist. As part of this experience, I created a Diabetes Prediction app using Machine Learning, deployed it with Flask, and containerized it using Docker. You can now find the app hosted on Heroku. This repository serves as a detailed guide, walking you through the entire journey of building a machine learning model for predicting diabetes. The process includes handling data preprocessing, conducting exploratory data analysis (EDA), creating visualizations, training the model, and finally deploying it
+During my internship at Data Glacier in weeks 4 and 5, I took on the role of a Data Analyst/Data Science. As part of this experience, I created a Diabetes Prediction app using Machine Learning, deployed it with Flask, and containerized it using Docker. You can now find the app hosted on Heroku. This repository serves as a detailed guide, walking you through the entire journey of building a machine learning model for predicting diabetes. The process includes handling data preprocessing, conducting exploratory data analysis (EDA), creating visualizations, training the model, and finally deploying it
 
 Key Steps:
 
