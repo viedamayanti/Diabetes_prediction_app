@@ -1,3 +1,3 @@
 buildpacks:clear
 buildpacks:add --index heroku/python
-web: gunicorn app:app
+web: python3 app:app
